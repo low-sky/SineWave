@@ -14,9 +14,9 @@ def MySineWave(lam):
 	plt.ylabel('$sin(2{\pi}x/%.1f)$' %lam)
 	plt.title('Sine Function with Wavelength $\lambda=$%.1f' %lam)
 	plt.show()
-	
+
 	return
 
 #Get wavelength from user
-lam = float(input("Enter Wavelength: "))
-MySineWave(lam)
+#lam = float(input("Enter Wavelength: "))
+#MySineWave(lam)
